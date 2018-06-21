@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Datacommunicatiedienst-ontwerp-2018" id="71a9c29b" version="4.0.0">
+  <folder name="Strategy" id="9b3937bf" type="strategy"/>
+  <folder name="Business" id="b6c69db4" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Informatie" id="59e2aadb-daca-454a-b726-2788563675e0">
+      <documentation>De eenheid Informatie</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Staf" id="42e96a0b-c5cf-4322-b240-e932c0e1a2ac"/>
+    <element xsi:type="archimate:BusinessActor" name="CIO Office" id="201a5e19-734f-484f-9768-e53c731201e9"/>
+    <element xsi:type="archimate:BusinessActor" name="Infrastructuur" id="eec16b05-f94f-4159-8499-4631032dbf25"/>
+    <element xsi:type="archimate:BusinessActor" name="Documentaire Informatie" id="ffc5235f-2fa0-47d7-9507-fb8f92479d89"/>
+    <element xsi:type="archimate:BusinessActor" name="Functioneel Beheer" id="44709d5a-7858-485e-8315-323b3d2fd55c"/>
+    <element xsi:type="archimate:BusinessActor" name="Informatie- en Gegevensdiensten" id="7d28663a-ade8-4f39-adc2-b5d8a627c45d"/>
+    <element xsi:type="archimate:BusinessActor" name="Implementatie &amp; Ontwikkeling" id="8acf3daf-a4c2-4700-8d07-b8a984484994"/>
+    <element xsi:type="archimate:BusinessActor" name="Information Security Officer" id="e0d3a8ff-1fa4-418c-b7f2-fe641625bc68"/>
+    <element xsi:type="archimate:BusinessActor" name="Natuurlijk persoon" id="97f2c47b-c5ea-4446-a0eb-505109c9e59c"/>
+    <element xsi:type="archimate:BusinessActor" name="Gemeente" id="45118856-e74f-4dc1-bf6d-c0cfd8b6ff44"/>
+    <element xsi:type="archimate:BusinessActor" name="Niet natuurlijk persoon" id="7dd2be64-9cad-46a3-b171-748e566391ad"/>
+    <element xsi:type="archimate:BusinessRole" name="Burger" id="81c4723f-b936-4c9e-8935-aa81f0a0d275">
+      <documentation>Toegevoegd 20171010 naar aanleiding van ppt Business Architectuur omgevingswet v 0.8</documentation>
+      <property key="Datum toegevoegd" value="10-10-2017"/>
+      <property key="Reden toegevoegd" value="Business architectuur Omgevingswet v 0.8"/>
+      <property key="Definitie" value="inwoner van een stad als zodanig met alle daaraan verbonden rechten (Van Dale), lid van een staatsgemeenschap als zodanig (Van Dale)"/>
+      <property key="Opmerking" value="wordt in Business architectuur Omgevingswet gemodelleerd als actor, hier als rol van Natuurlijk persoon."/>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Overheidsorganisatie" id="d15f655b-ac85-4a76-b68c-addc06a2cc39"/>
+    <element xsi:type="archimate:BusinessActor" name="Bedrijf" id="84c46ed7-d29f-460d-bec8-385e090e1516"/>
+    <element xsi:type="archimate:BusinessRole" name="Onderdaan" id="14e5584c-8236-448f-a065-a479cb4d07fc"/>
+    <element xsi:type="archimate:BusinessRole" name="Klant" id="06bdf605-f7ca-4df3-952b-c4004ba67065"/>
+    <element xsi:type="archimate:BusinessActor" name="Provincie" id="f45ae4bd-59dd-40c7-8f49-f281a27fea64"/>
+    <element xsi:type="archimate:BusinessActor" name="Waterschap" id="8701014e-c986-4954-a538-87e562c79453"/>
+    <element xsi:type="archimate:BusinessActor" name="Omgevingsdienst" id="5c526171-05cb-483e-adc1-8ea6f05e997c"/>
+    <element xsi:type="archimate:BusinessFunction" name="Leveren applicatiedienst (bestaand)" id="8eb32b74-03fa-42da-b0cf-7cb7ee8201a6"/>
+    <element xsi:type="archimate:BusinessRole" name="Applicatiegebruiker" id="db327b0a-9045-40cc-ab30-58967ff52de2"/>
+    <element xsi:type="archimate:BusinessActor" name="Medewerker Gemeente Apeldoorn" id="1a51d2d8-c5f5-4c9c-8865-39372890d8bf"/>
+    <element xsi:type="archimate:BusinessEvent" name="Aanvraag applicatiedienst (bestaand)" id="199906f3-00d5-42ec-8bdb-2f5c3d744f0e"/>
+    <element xsi:type="archimate:BusinessFunction" name="Maken applicatiedienst" id="586861a8-e3f3-4a4e-bffb-ea661ff38a00"/>
+    <element xsi:type="archimate:BusinessEvent" name="Aanvraag applicatiedienst (nieuw)" id="0ac30370-3da2-4395-a5bc-1e8ee1d56d45"/>
+    <element xsi:type="archimate:BusinessProcess" name="Initiëren Applicatiedienst" id="373bb16f-b05f-4cac-91cc-bcfcc16e6417"/>
+    <element xsi:type="archimate:BusinessProcess" name="Beheren Applicatiedienst" id="4fb12666-8fd4-45fe-a5f6-6910b8d504ca"/>
+    <element xsi:type="archimate:BusinessProcess" name="Leveren Applicatiedienst" id="04a22f96-5607-41f7-8f12-1a4146582e6a"/>
+    <element xsi:type="archimate:BusinessProcess" name="Advisering informatieprocessen" id="0b9deac4-d5dc-453e-a989-19fc5c3a18a6"/>
+    <element xsi:type="archimate:BusinessProcess" name="Applicatie-advisering" id="450d8e95-27c1-42b0-aa47-cbf733b8f01a"/>
+    <element xsi:type="archimate:Product" name="Procesadvies" id="faa6689e-5ffb-416e-9bf1-3735808e7828"/>
+    <element xsi:type="archimate:BusinessEvent" name="Aanvraag IV-verandering" id="1acda9c4-62e6-49ff-aeb9-46d30eb4d422"/>
+    <element xsi:type="archimate:BusinessProcess" name="Business Process" id="316b8cdf-b1a7-4c50-ad89-25d2b6a37c2c"/>
+    <element xsi:type="archimate:BusinessRole" name="Uitvoerder" id="2442c4a6-82a9-4862-83bb-4992879ad0f9"/>
+    <element xsi:type="archimate:BusinessProcess" name="Proces" id="5bcc0fa5-210a-4a41-8832-9a2783156f1d"/>
+    <element xsi:type="archimate:BusinessActor" name="Persoon" id="1b977e83-fcf6-4132-a9fb-2f69962bc9b2"/>
+    <element xsi:type="archimate:BusinessActor" name="Robot" id="b314889f-a852-4fac-a9d6-85ce035ca35d"/>
+    <element xsi:type="archimate:BusinessActor" name="Computer" id="72f7a08b-92de-4636-90ef-5067c6c12502"/>
+    <element xsi:type="archimate:Product" name="Product" id="6ae0d4a1-250a-42b2-927c-c4daa31359d4"/>
+    <element xsi:type="archimate:BusinessService" name="Service" id="4f296048-7842-400e-aadf-46c87c07d087"/>
+    <element xsi:type="archimate:BusinessActor" name="Organisatie" id="bbdca736-0991-472a-8c1c-2883ecb1c987"/>
+    <element xsi:type="archimate:BusinessEvent" name="Aanvraag Bedrijfsgegevens" id="9b49cf13-c999-4ba1-bc2f-9d6a120f3e9d"/>
+  </folder>
+  <folder name="Application" id="ff560262" type="application"/>
+  <folder name="Technology &amp; Physical" id="8c1b375f" type="technology">
+    <folder name="VLANS" id="0cf5e3fe-4934-4339-a038-8fccfe9326b3"/>
+    <folder name="IP-Netwerken" id="7ef463fc-ea34-4714-922f-336c48e349f6"/>
+    <folder name="Hardware" id="a6d51efd-858d-4328-a024-42e42658a3e2"/>
+    <folder name="Virtuele machines" id="ddab32c1-6056-4114-86d6-70fd9426187f"/>
+    <element xsi:type="archimate:Facility" name="Gemeente" id="26e0b0f2-a30c-4766-8807-28823891c3a6"/>
+    <element xsi:type="archimate:Facility" name="Leverancier" id="42377b8a-cc20-404e-9460-e56a91504bdc"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internet" id="1d42a281-44f4-4aae-b30c-72e4057b231d"/>
+    <element xsi:type="archimate:Artifact" name="Bedrijfsgegevens" id="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950"/>
+    <element xsi:type="archimate:Device" name="Apparaat" id="a8e13083-963b-4258-a879-d39716dc38e7"/>
+    <element xsi:type="archimate:TechnologyService" name="Backup" id="236ae88d-9eb4-4fec-9914-22dffe0b55d4"/>
+  </folder>
+  <folder name="Motivation" id="bc0375e7" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="efa33aab" type="implementation_migration"/>
+  <folder name="Other" id="75bdfa1f" type="other"/>
+  <folder name="Relations" id="02269e62" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="997c61f8-08e1-458e-8a2f-72ea6af664f0" source="97f2c47b-c5ea-4446-a0eb-505109c9e59c" target="81c4723f-b936-4c9e-8935-aa81f0a0d275"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="75a92f67-8f62-4328-a47f-70a7f1f4b4d8" source="d15f655b-ac85-4a76-b68c-addc06a2cc39" target="7dd2be64-9cad-46a3-b171-748e566391ad"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="0d1c5272-0754-4b27-9464-dc5e44d4a5ae" source="45118856-e74f-4dc1-bf6d-c0cfd8b6ff44" target="d15f655b-ac85-4a76-b68c-addc06a2cc39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="efce1f2f-a0bf-4cad-a1c0-507893c6995a" source="84c46ed7-d29f-460d-bec8-385e090e1516" target="7dd2be64-9cad-46a3-b171-748e566391ad"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="bb703caa-42d0-4a4b-a2cc-ac233a2fb476" source="14e5584c-8236-448f-a065-a479cb4d07fc" target="81c4723f-b936-4c9e-8935-aa81f0a0d275"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="56e7acfb-2c4c-4927-8a18-06fe4480db39" source="06bdf605-f7ca-4df3-952b-c4004ba67065" target="81c4723f-b936-4c9e-8935-aa81f0a0d275"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="5cc81e16-9081-4d62-a147-4ab77fcd3fb0" source="84c46ed7-d29f-460d-bec8-385e090e1516" target="06bdf605-f7ca-4df3-952b-c4004ba67065"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="4d5ca337-e9fe-4f89-9b47-7fbd6454223f" source="f45ae4bd-59dd-40c7-8f49-f281a27fea64" target="d15f655b-ac85-4a76-b68c-addc06a2cc39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="b2f94e50-6431-4f1c-9402-7684817295a5" source="8701014e-c986-4954-a538-87e562c79453" target="d15f655b-ac85-4a76-b68c-addc06a2cc39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="afe60037-b57c-430f-9d7b-f6a7dc14995c" source="5c526171-05cb-483e-adc1-8ea6f05e997c" target="d15f655b-ac85-4a76-b68c-addc06a2cc39"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="2b1c5b78-072e-41be-932f-f1fc52875372" source="1b977e83-fcf6-4132-a9fb-2f69962bc9b2" target="2442c4a6-82a9-4862-83bb-4992879ad0f9"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="32b7d743-33c3-4e16-ae03-1fa46d05fbdd" source="b314889f-a852-4fac-a9d6-85ce035ca35d" target="2442c4a6-82a9-4862-83bb-4992879ad0f9"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="bc08b57e-9984-4303-ae3a-92a89d893018" source="72f7a08b-92de-4636-90ef-5067c6c12502" target="2442c4a6-82a9-4862-83bb-4992879ad0f9"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="71846229-9965-43df-9f48-70bd35c01d25" source="2442c4a6-82a9-4862-83bb-4992879ad0f9" target="5bcc0fa5-210a-4a41-8832-9a2783156f1d"/>
+    <element xsi:type="archimate:RealizationRelationship" id="51a8e653-39c5-46f6-aea0-8e87f0f20e97" source="5bcc0fa5-210a-4a41-8832-9a2783156f1d" target="4f296048-7842-400e-aadf-46c87c07d087"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="e669cd42-6907-4564-bded-ab70d1360949" source="45118856-e74f-4dc1-bf6d-c0cfd8b6ff44" target="2442c4a6-82a9-4862-83bb-4992879ad0f9"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="fdaec852-1ad3-4315-b2b4-e2916ef8ff9c" source="bbdca736-0991-472a-8c1c-2883ecb1c987" target="2442c4a6-82a9-4862-83bb-4992879ad0f9"/>
+    <element xsi:type="archimate:ServingRelationship" id="7a7a44ef-7640-48f0-befb-2099c9a568ba" source="1d42a281-44f4-4aae-b30c-72e4057b231d" target="42377b8a-cc20-404e-9460-e56a91504bdc"/>
+    <element xsi:type="archimate:ServingRelationship" id="82dc50b4-11aa-4b14-9642-3f02eb85fafa" source="1d42a281-44f4-4aae-b30c-72e4057b231d" target="26e0b0f2-a30c-4766-8807-28823891c3a6"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="70e29191-6fff-46b8-943b-d7ca69385b7e" source="42377b8a-cc20-404e-9460-e56a91504bdc" target="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950"/>
+    <element xsi:type="archimate:ServingRelationship" id="7b74d319-13ab-4b58-8826-dc0a857ec815" source="1d42a281-44f4-4aae-b30c-72e4057b231d" target="a8e13083-963b-4258-a879-d39716dc38e7"/>
+    <element xsi:type="archimate:FlowRelationship" id="9808fa39-328e-4e6c-969a-37a9f65f01b9" source="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950" target="a8e13083-963b-4258-a879-d39716dc38e7"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="eb206202-893a-4d6f-b30f-77eb045cb73b" source="42377b8a-cc20-404e-9460-e56a91504bdc" target="42e96a0b-c5cf-4322-b240-e932c0e1a2ac"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="2dd164db-c9e2-4c0e-8be1-dca92677ac2e" source="42377b8a-cc20-404e-9460-e56a91504bdc" target="4fb12666-8fd4-45fe-a5f6-6910b8d504ca"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="db1bc774-95ca-40c4-a007-75ae234a69e9" source="42e96a0b-c5cf-4322-b240-e932c0e1a2ac" target="4fb12666-8fd4-45fe-a5f6-6910b8d504ca"/>
+    <element xsi:type="archimate:ServingRelationship" id="635c5487-2b9f-46e4-8c03-f86b5ba0ce7a" source="a8e13083-963b-4258-a879-d39716dc38e7" target="1a51d2d8-c5f5-4c9c-8865-39372890d8bf"/>
+    <element xsi:type="archimate:AccessRelationship" id="e2ef51c1-c0bd-495c-a963-eb84cd41b052" source="1a51d2d8-c5f5-4c9c-8865-39372890d8bf" target="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950"/>
+    <element xsi:type="archimate:AccessRelationship" id="f5e3b36e-e9df-47d5-bc74-17119524334d" source="42e96a0b-c5cf-4322-b240-e932c0e1a2ac" target="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="eab7cd71-8a9b-4b51-a893-b35227d3b6c5" source="d15f655b-ac85-4a76-b68c-addc06a2cc39" target="9b49cf13-c999-4ba1-bc2f-9d6a120f3e9d"/>
+    <element xsi:type="archimate:ServingRelationship" id="8a7accd0-5ce5-434b-8021-c986935e1932" source="42e96a0b-c5cf-4322-b240-e932c0e1a2ac" target="9b49cf13-c999-4ba1-bc2f-9d6a120f3e9d"/>
+    <element xsi:type="archimate:ServingRelationship" id="0140a1ca-8640-445b-8110-e496824cbc08" source="a8e13083-963b-4258-a879-d39716dc38e7" target="db327b0a-9045-40cc-ab30-58967ff52de2"/>
+    <element xsi:type="archimate:AccessRelationship" id="068f7a33-ecaf-4f20-b86a-a80b677954d1" source="db327b0a-9045-40cc-ab30-58967ff52de2" target="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950"/>
+    <element xsi:type="archimate:AccessRelationship" id="ab209d96-482f-409c-b177-bf2d3ba069f5" source="236ae88d-9eb4-4fec-9914-22dffe0b55d4" target="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950"/>
+    <element xsi:type="archimate:RealizationRelationship" id="9e9460aa-0433-430c-83e4-91e50e229274" source="ae6f6c6a-b744-4fe9-8c48-77e6f98c9950" target="236ae88d-9eb4-4fec-9914-22dffe0b55d4"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="9fbb076b-8d9f-4ead-bc78-0664d011366c" source="26e0b0f2-a30c-4766-8807-28823891c3a6" target="42e96a0b-c5cf-4322-b240-e932c0e1a2ac"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="9e39e6c4-9571-485b-b903-84e751d9a269" source="26e0b0f2-a30c-4766-8807-28823891c3a6" target="db327b0a-9045-40cc-ab30-58967ff52de2"/>
+    <element xsi:type="archimate:ServingRelationship" id="c13ecb00-308b-4d2d-b5c6-7f8978f1b44c" source="db327b0a-9045-40cc-ab30-58967ff52de2" target="26e0b0f2-a30c-4766-8807-28823891c3a6"/>
+    <element xsi:type="archimate:RealizationRelationship" id="ab3d2991-fdf1-466a-9674-6255a12b7917" source="26e0b0f2-a30c-4766-8807-28823891c3a6" target="236ae88d-9eb4-4fec-9914-22dffe0b55d4"/>
+  </folder>
+  <folder name="Views" id="59f10586" type="diagrams">
+    <folder name="3. Netwerk" id="b50e256c-fa41-49ed-bf29-79efe1f8efac"/>
+    <folder name="1. Fysiek" id="9442e7c2-79cc-4cdb-9292-1fa46f26accd"/>
+    <folder name="2. Datalink" id="01fa946c-cc8a-41b4-ba5a-6552598f2388"/>
+  </folder>
+  <property key="Report:Model:Hide:Business" value="false"/>
+  <property key="Report:Model:Hide:Application" value="false"/>
+  <property key="Report:Model:Hide:Technology&amp;Physical" value="false"/>
+  <property key="Report:Model:Hide:Motivation" value="false"/>
+  <property key="Report:Model:Hide:Implementation&amp;Migration" value="false"/>
+  <property key="Report:Model:Hide:Other" value="false"/>
+  <property key="Report:Model:Hide:Relations" value="false"/>
+  <property key="Report:Model:Hide:Views" value="false"/>
+  <property key="Report:Model:Hide:ViewNumbering" value="true"/>
+</archimate:model>
