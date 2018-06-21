@@ -1,0 +1,18 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Burger"
+    id="81c4723f-b936-4c9e-8935-aa81f0a0d275"
+    documentation="Toegevoegd 20171010 naar aanleiding van ppt Business Architectuur omgevingswet v 0.8">
+  <properties
+      key="Datum toegevoegd"
+      value="10-10-2017"/>
+  <properties
+      key="Reden toegevoegd"
+      value="Business architectuur Omgevingswet v 0.8"/>
+  <properties
+      key="Definitie"
+      value="inwoner van een stad als zodanig met alle daaraan verbonden rechten (Van Dale), lid van een staatsgemeenschap als zodanig (Van Dale)"/>
+  <properties
+      key="Opmerking"
+      value="wordt in Business architectuur Omgevingswet gemodelleerd als actor, hier als rol van Natuurlijk persoon."/>
+</archimate:BusinessRole>
